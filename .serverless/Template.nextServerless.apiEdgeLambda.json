@@ -1,0 +1,17 @@
+{
+  "name": "jx59tkp-nsuljw",
+  "hash": "b3cKoYyCDt8KerOaFnN6/n5Ef/rcONMnkokWkysKr5I=",
+  "description": "API Lambda@Edge for Next CloudFront distribution",
+  "memory": 512,
+  "timeout": 10,
+  "code": "/Users/daniel/Projects/nextjs-serverless/.serverless_nextjs/api-lambda",
+  "shims": [],
+  "handler": "index.handler",
+  "runtime": "nodejs12.x",
+  "env": {},
+  "role": {
+    "arn": "arn:aws:iam::354741225204:role/jx59tkp-x81eqn"
+  },
+  "arn": "arn:aws:lambda:us-east-1:354741225204:function:jx59tkp-nsuljw",
+  "region": "us-east-1"
+}
