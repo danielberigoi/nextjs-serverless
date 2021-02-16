@@ -1,3 +1,3 @@
-export const fr = {
+export default {
   hello: "Bonjour le monde!",
 };

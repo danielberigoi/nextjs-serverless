@@ -1,8 +1,9 @@
 import { useRouter } from "next/router";
 import { IntlProvider } from "react-intl";
 
-import "../styles/globals.css";
-import * as locales from "../locales";
+import locales from "locales";
+
+import "styles/globals.css";
 
 const App = ({ Component, pageProps }) => {
   const { locale, defaultLocale } = useRouter();
@@ -13,7 +14,7 @@ const App = ({ Component, pageProps }) => {
       messages={locales[locale]}
       defaultLocale={defaultLocale}
     >
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </IntlProvider>
   );
 };

@@ -1,0 +1,38 @@
+[
+  {
+    "locale": "de",
+    "params": {
+      "canton": "basel-city",
+      "city": "all",
+      "specialization": "psychologist",
+      "focus": "all"
+    }
+  },
+  {
+    "locale": "en",
+    "params": {
+      "canton": "basel-city",
+      "city": "all",
+      "specialization": "psychologist",
+      "focus": "all"
+    }
+  },
+  {
+    "locale": "fr",
+    "params": {
+      "canton": "basel-city",
+      "city": "all",
+      "specialization": "psychologist",
+      "focus": "all"
+    }
+  },
+  {
+    "locale": "it",
+    "params": {
+      "canton": "basel-city",
+      "city": "all",
+      "specialization": "psychologist",
+      "focus": "all"
+    }
+  }
+]
