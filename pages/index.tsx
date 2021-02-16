@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from 'next/link'
 import { useIntl } from "react-intl";
 
 import styles from "../styles/Home.module.css";
@@ -19,22 +18,6 @@ export default function Home() {
           Welcome <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <h2>{f({ id: "hello" })}</h2>
-
-        <Link href="/basel-city/all/psychologist/all" locale={"en"}>
-          <a>To /en/basel-city/all/psychologist/all</a>
-        </Link>
-
-        <Link href="/basel-city/all/psychologist/all" locale={"de"}>
-          <a>To /de/basel-city/all/psychologist/all</a>
-        </Link>
-
-        <Link href="/basel-city/all/psychologist/all" locale={"fr"}>
-          <a>To /fr/basel-city/all/psychologist/all</a>
-        </Link>
-
-        <Link href="/basel-city/all/psychologist/all" locale={"it"}>
-          <a>To /it/basel-city/all/psychologist/all</a>
-        </Link>
 
         <p className={styles.description}>
           Get started by editing{" "}
