@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { IntlProvider } from "react-intl";
 
-import locales from "locales";
+import * as locales from "locales";
 
 import "styles/globals.css";
 
