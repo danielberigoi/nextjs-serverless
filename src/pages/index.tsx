@@ -1,10 +1,16 @@
 import React from "react";
 import { useIntl } from "react-intl";
 
+import { User } from "interfaces";
 import ProfileListHeader from "components/ProfileListHeader";
 import ProfileListItem from "components/ProfileListItem";
 
-const UsersList = (props) => {
+type Props = {
+  users: User[]
+  usersUrl: string;
+}
+
+const UsersList: React.FC<Props> = (props) => {
   const [users, setUsers] = React.useState(props.users);
   const { formatMessage: f } = useIntl();
 
