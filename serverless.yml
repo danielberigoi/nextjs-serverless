@@ -1,2 +1,6 @@
 nextServerless:
   component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    cloudfront:
+      priceClass: "PriceClass_100"
+    bucketRegion: "eu-central-1"
